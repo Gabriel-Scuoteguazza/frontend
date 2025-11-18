@@ -35,4 +35,6 @@ async function signUpEagle() {
     }).then(response => response.json())
 
     alert(response.mensage)
+
+    window.location.href = "../index.html"
 }
