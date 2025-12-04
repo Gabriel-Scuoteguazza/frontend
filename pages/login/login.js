@@ -19,7 +19,7 @@ async function loginEagle() {
         password
     }
 
-    const response = await fetch("http://localhost:3333/login", {
+    const response = await fetch("https://backend-wine-kappa.vercel.app/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
